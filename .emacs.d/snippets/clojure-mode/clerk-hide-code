@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: clerk-hide-code
+# key: ;chc
+# --
+^{::clerk/visibility {:code :hide}}

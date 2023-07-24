@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: kw-spec
+# key: ;kws
+# --
+#(us/kw-matches-hierarchy? [:dt] %)

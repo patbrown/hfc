@@ -1,0 +1,43 @@
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+# bsp
+yabai -m config layout bsp
+
+# window placement
+yabai -m config window_placement second_child
+
+# window padding
+yabai -m config top_padding 10
+yabai -m config bottom_padding 10
+yabai -m config left_padding 10
+yabai -m config right_padding 10
+yabai -m config window_gap 10
+yabai -m config auto_balance off
+yabai -m config split_ratio 0.618
+yabai -m config window_shadow one
+yabai -m window_border_width 6
+yabai -m window_border_radius 12
+yabai -m window_border_blur on
+yabai -m window_border_hidpi on
+yabai -m window_border on
+yabai -m config window_opacity on
+yabai -m config active_window_opacity 1.00
+yabai -m config normal_window_opacity 1.00
+
+# mouse
+yabai -m config mouse_follows_focus on
+yabai -m config mouse_modifier alt
+yabai -m config mouse_action1 move
+yabai -m config mouse_action2 resize
+yabai -m mouse_drop_action swap
+
+# Turn off yabai for
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add label="App Store" app="^App Store$" manage=off
+yabai -m rule --add label="Software Update" title="Software Update" manage=off
+yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+

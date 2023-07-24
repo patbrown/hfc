@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: require-clojure-spec
+# key: req-s'
+# --
+[clojure.spec.alpha :as s]

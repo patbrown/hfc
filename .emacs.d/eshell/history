@@ -1,0 +1,46 @@
+mmdc -V
+npx mmdc -V
+cd ..
+mkdir drilling
+rm -rf drilling/
+git clone https://github.com/netdrilling/drilling.git
+cd drilling/
+ls
+ls -a
+ls
+git pull origin main
+ls
+ls -a
+npx create-reagent-app drilling
+ls -a
+cd drilling/
+ls
+npm start
+ls -a
+npm start
+npm run start
+ls -a
+npm start
+shadow-cljs help
+npm install --sace-dev shadow-cljs
+npm start
+npm install
+npm start
+npm install --save three
+npm start
+npm install
+npm start
+npm build
+npm run build
+npm start
+npm -i env-cmd
+npm install --save env-cmd
+npm install --save react-scripts
+npm run build
+npm ci
+npm install
+npm install -g @aws-amplify/cli
+sudo npm install -g @aws-amplify/cli
+amplify configure
+amplify init
+ssh root@192.168.0.203

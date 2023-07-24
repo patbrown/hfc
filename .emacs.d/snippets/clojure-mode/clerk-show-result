@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: clerk-show-result
+# key: ;csr
+# --
+^{::clerk/visibility {:result :show}}

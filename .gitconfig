@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Patrick Brown
+	email = pat@drilling.net
+[alias]
+	last = log -1 HEAD
+[core]
+	editor = emacs
+[init]
+	defaultBranch = main
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true

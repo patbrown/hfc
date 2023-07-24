@@ -1,0 +1,21 @@
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle pip
+antigen bundle colorize
+antigen bundle docker
+antigen bundle doctl
+antigen bundle gh
+antigen bundle git
+antigen bundle history
+antigen bundle npm
+
+antigen bundle hlissner/zsh-autopair
+antigen bundle zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+THEME=denysdovhan/spaceship-prompt 
+antigen list | grep $THEME; if [ $? -ne 0 ]; then antigen theme $THEME; fi
+
+# Put all plugins above this
+antigen apply

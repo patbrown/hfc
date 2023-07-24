@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: clerk-fold-all
+# key: ;cfa
+# --
+^{::clerk/visibility {:code :fold :result :fold}}

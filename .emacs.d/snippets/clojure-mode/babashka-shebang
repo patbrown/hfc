@@ -1,0 +1,7 @@
+# name: babashka-shebang
+# key: FJbb
+# --
+
+#!/usr/bin/env bb
+
+$0

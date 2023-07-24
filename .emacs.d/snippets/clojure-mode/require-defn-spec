@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: require-defn-spec
+# key: req-ds'
+# --
+[orchestra.core :refer [defn-spec]]

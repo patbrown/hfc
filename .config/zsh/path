@@ -1,0 +1,7 @@
+export PATH=/usr/local/bin:$PATH
+export PATH="$HOME/.amplify/bin:$PATH"
+export PATH="$FIREBIRD_HOME/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin/graalvm-ce-java11-22.3.1:$PATH"
+export PATH="/usr/bin/python3:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
