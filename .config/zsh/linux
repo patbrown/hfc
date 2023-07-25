@@ -1,3 +1,4 @@
+export LC_ALL="C.UTF-8"
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias ec='/usr/bin/zsh /home/pat/bin/ec'
