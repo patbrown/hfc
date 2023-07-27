@@ -49,7 +49,6 @@ representing a sequence of keystrokes."
   :config
   (show-paren-mode t)
   (define-key paredit-mode-map (kbd "M-s") nil)
-  (define-key paredit-mode-map (kbd "C-;") nil)
   :diminish nil)
 
 (use-package paredit-everywhere
@@ -108,6 +107,5 @@ representing a sequence of keystrokes."
 (use-package aggressive-indent
   :straight t
   :ensure t)
-
 
 (provide 'programming-config)
