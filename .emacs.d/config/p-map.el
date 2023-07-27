@@ -62,7 +62,7 @@
 (define-key jump-map (kbd "e") 'end-of-buffer)
 (define-key jump-map (kbd "f") 'ace-window)
 (define-key jump-map (kbd "c") 'ace-jump-char-mode)
-(define-key jump-map (kbd "l") 'goto-line)
+(define-key jump-map (kbd "l") 'ace-jump-line-mode)
 (define-key jump-map (kbd "n") 'tab-line-switch-to-next-tab)
 (define-key jump-map (kbd "p") 'tab-line-switch-to-prev-tab)
 (define-key jump-map (kbd "j") 'jump-to-register)

@@ -49,6 +49,7 @@ representing a sequence of keystrokes."
   :config
   (show-paren-mode t)
   (define-key paredit-mode-map (kbd "M-s") nil)
+  (define-key paredit-mode-map (kbd "C-;") nil)
   :diminish nil)
 
 (use-package paredit-everywhere
@@ -108,14 +109,5 @@ representing a sequence of keystrokes."
   :straight t
   :ensure t)
 
-
-(defun clerk-show ()
-  (interactive)
-  (when-let
-      ((filename
-        (buffer-file-name)))
-    (save-buffer)
-    (cider-interactive-eval
-     (concat "(nextjournal.clerk/show! \"" filename "\")"))))
 
 (provide 'programming-config)

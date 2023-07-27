@@ -17,14 +17,14 @@
   :config
   (global-set-key (kbd "C-h C-m") 'discover-my-major))
 
-
+(global-set-key     (kbd "M-h")               'fzf)
 (global-set-key     (kbd "C-i")               'completion-at-point)
 (global-set-key     (kbd "C-x C-r")               'counsel-register)
 (global-set-key     (kbd "C-c C-x r")         'eval-region)
 (global-set-key     (kbd "C-c C-x b")         'eval-buffer)
 (global-set-key     (kbd "RET")               'newline-and-indent)
 (global-set-key     (kbd "C-j")               'newline-and-indent)
-(global-set-key     (kbd "C-l")               'ace-jump-line-mode)
+(global-set-key     (kbd "C-l")               'goto-line)
 (global-set-key     (kbd "M-;")               'comment-dwim)
 (global-set-key     (kbd "C-c a")               'beginning-of-buffer)
 (global-set-key (kbd "C-t") 'forward-paragraph)
@@ -51,6 +51,7 @@
 ;(global-set-key (kbd "C-c g")                 'counsel-git)
 (global-set-key (kbd "C-c G")                 'counsel-git-grep)
 (global-set-key (kbd "C-x b") 'ivy-switch-buffer)
+(global-set-key (kbd "C-x f") 'projectile-find-file)
 ;; YASNIPPETS
 (global-set-key (kbd "C-x C-f") 'find-file)
 (global-set-key (kbd "C-c C-f") 'projectile-find-file-dwim)
@@ -68,8 +69,5 @@
 (global-set-key (kbd "C-<up>") 'windmove-up)
 (global-set-key (kbd "C-<down>") 'windmove-down)
 (global-set-key (kbd "C-c v") 'indent-sexp)
-
-
-
 
 (provide 'global-kbd-config)
