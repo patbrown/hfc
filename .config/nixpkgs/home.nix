@@ -55,6 +55,7 @@ pkgs.tmux
 pkgs.tree
 pkgs.vault
 pkgs.wget
+pkgs.websocat
 pkgs.xclip
 pkgs.yarn
 pkgs.yt-dlp
