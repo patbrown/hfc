@@ -69,5 +69,7 @@
 (global-set-key (kbd "C-<up>") 'windmove-up)
 (global-set-key (kbd "C-<down>") 'windmove-down)
 (global-set-key (kbd "C-c v") 'indent-sexp)
+(global-set-key (kbd "M-u") 'delete-indentation)
+(global-set-key (kbd "M-U") 'indent-region)
 
 (provide 'global-kbd-config)
