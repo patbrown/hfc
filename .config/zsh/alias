@@ -40,3 +40,10 @@ alias kns="kubectl ns"
 alias l="ls --color=auto"
 alias la="l -la"
 alias ll="l -l"
+
+alias ef="fd . --exclude={.get,node_modules,tmp,target} --type f | fzf --header 'ENTER to edit' --reverse --preview='pistol {}' --bind 'ENTER:execute(emacsclient -t {})' --margin=3%"
+alias ed="fd . --exclude={.get,node_modules,tmp,target} --type d | fzf --header 'ENTER to edit' --reverse --preview='pistol {}' --bind 'ENTER:execute(emacsclient -t {})' --margin=3%"
+
+function fcd () {
+cd $(find /home/pat -type d | fzf --header 'CD into' --reverse --preview='pistol {}' --margin=3%)
+}

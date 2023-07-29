@@ -2,4 +2,4 @@
 # name: clerk-only-code
 # key: ;chr
 # --
-^{::clerk/visibility {:result :hide}}
+^{:nextjournal.clerk/visibility {:result :hide}}

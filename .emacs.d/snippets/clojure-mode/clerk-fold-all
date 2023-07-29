@@ -2,4 +2,4 @@
 # name: clerk-fold-all
 # key: ;cfa
 # --
-^{::clerk/visibility {:code :fold :result :fold}}
+^{:nextjournal.clerk/visibility {:code :fold :result :fold}}

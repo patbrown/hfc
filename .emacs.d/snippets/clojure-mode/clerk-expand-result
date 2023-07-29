@@ -2,5 +2,5 @@
 # name: clerk-expand-result
 # key: ;cxr
 # --
-^{::clerk/visibility {:result :show}
-  ::clerk/auto-expand-results? true}
+^{:nextjournal.clerk/visibility {:result :show}
+  :nextjounal.clerk/auto-expand-results? true}

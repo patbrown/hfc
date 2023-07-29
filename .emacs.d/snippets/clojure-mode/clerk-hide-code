@@ -2,4 +2,4 @@
 # name: clerk-hide-code
 # key: ;chc
 # --
-^{::clerk/visibility {:code :hide}}
+^{:nextjournal.clerk/visibility {:code :hide}}

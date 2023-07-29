@@ -2,4 +2,4 @@
 # name: clerk-show-all
 # key: ;csa
 # --
-^{::clerk/visibility {:code :show :result :show}}
+^{:nextjournal.clerk/visibility {:code :show :result :show}}
