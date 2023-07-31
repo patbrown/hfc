@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: require-test
+# key: ;rtest
+# --
+(:require [clojure.test :refer [deftest is]])

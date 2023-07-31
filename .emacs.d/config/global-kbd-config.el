@@ -73,4 +73,5 @@
 (global-set-key (kbd "M-U") 'indent-region)
 (global-set-key (kbd "C-v") 'backward-char)
 
+
 (provide 'global-kbd-config)

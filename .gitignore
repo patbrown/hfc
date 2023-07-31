@@ -136,3 +136,6 @@ Temporary Items
 /.lsp/
 /.emacs.d/elpa/
 /.emacs.d/workspace/
+/.tmux/plugins/tmux-nova/
+/.config/gh/
+/.tmux/plugins/tmux-resurrect/
