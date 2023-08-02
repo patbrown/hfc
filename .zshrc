@@ -33,10 +33,10 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 # compinit
 _comp_options+=(globdots)		# Include hidden files.
-autoload -U up-line-or-beginning-search
-autoload -U down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
 autoload -Uz colors && colors
 compinit
 # Babashka completion

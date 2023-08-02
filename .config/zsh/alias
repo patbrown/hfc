@@ -47,3 +47,4 @@ alias ed="fd . --exclude={.get,node_modules,tmp,target} --type d | fzf --header 
 function fcd () {
 cd $(find /home/pat -type d | fzf --header 'CD into' --reverse --preview='pistol {}' --margin=3%)
 }
+alias create="bb create; create"

@@ -85,3 +85,4 @@
 
 
 (straight-use-package 'project)
+(global-set-key (kbd "C-v") 'backward-char)

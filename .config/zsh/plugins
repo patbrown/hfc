@@ -11,7 +11,7 @@ antigen bundle npm
 
 antigen bundle hlissner/zsh-autopair
 antigen bundle zsh-users/zsh-autosuggestions
-zsh-users/zsh-history-substring-search
+antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 THEME=denysdovhan/spaceship-prompt 

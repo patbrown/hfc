@@ -17,6 +17,12 @@
   :config
   (global-set-key (kbd "C-h C-m") 'discover-my-major))
 
+
+(global-set-key     (kbd "C-c C-c a") 'append-to-register)
+(global-set-key     (kbd "C-c C-c i") 'insert-register)
+(global-set-key     (kbd "C-c C-c w") 'window-configuration-to-register)
+(global-set-key     (kbd "C-c C-c y") 'copy-to-register)
+(global-set-key     (kbd "C-x r l")   'list-register)
 (global-set-key     (kbd "M-h")               'fzf)
 (global-set-key     (kbd "C-i")               'completion-at-point)
 (global-set-key     (kbd "C-x C-r")               'counsel-register)
@@ -71,7 +77,6 @@
 (global-set-key (kbd "C-c v") 'indent-sexp)
 (global-set-key (kbd "M-u") 'delete-indentation)
 (global-set-key (kbd "M-U") 'indent-region)
-(global-set-key (kbd "C-v") 'backward-char)
-
+(global-set-key (kbd "C-c C-d") (load-file "~/hfc/.emacs.d/config/registers-list.el"))
 
 (provide 'global-kbd-config)
