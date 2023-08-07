@@ -1,3 +1,4 @@
+alias sz='source ~/.zshrc'
 alias sync-shell='cd ~/hfc && git pull origin main && popd'
 alias di='export FOO=$(gh issue list | fzf | cut -d$'"'"'\t'"'"' -f1) && gh issue develop $FOO --checkout'
 
