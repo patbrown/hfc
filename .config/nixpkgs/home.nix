@@ -20,7 +20,6 @@ pkgs.chroma
 pkgs.clojure
 pkgs.clojure-lsp
 pkgs.doctl
-pkgs.emacs
 pkgs.fd
 pkgs.fontconfig
 pkgs.fzf

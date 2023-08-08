@@ -37,7 +37,6 @@
   :init (load-theme 'spacemacs-dark t))
 
 
-
 ;; (if (string= (system-name) "debian")
 ;;       (load-theme 'spacemacs-dark t)
 ;;     (load-theme 'solarized-dark t))
@@ -46,10 +45,10 @@
 
 
 
-;; (use-package magit
-;;   :straight t
-;;   :init (if (not (boundp 'project-switch-commands)) 
-;; 	    (setq project-switch-commands nil)))
+ (use-package magit
+   :straight t
+   :init (if (not (boundp 'project-switch-commands)) 
+ 	    (setq project-switch-commands nil)))
 
 (use-package transient
   :straight t)
