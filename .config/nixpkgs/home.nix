@@ -29,6 +29,7 @@ pkgs.git-lfs
 pkgs.git-secret
 pkgs.gnupg
 pkgs.graphviz
+pkgs.gum
 pkgs.htop
 pkgs.jdk11
 pkgs.k9s
