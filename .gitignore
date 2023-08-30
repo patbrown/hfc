@@ -9,7 +9,6 @@
 /.config/iterm2/*
 /.config/configstore/*
 /.config/packer/*
-/.emacs.d/straight/*/**
 /.emacs.d/straight/build-cache.el
 /.emacs.d/transient/*
 /.emacs.d/elpa/*/**
