@@ -20,6 +20,7 @@ pkgs.chroma
 pkgs.clojure
 pkgs.clojure-lsp
 pkgs.doctl
+pkgs.emacs
 pkgs.fd
 pkgs.fontconfig
 pkgs.fzf
@@ -38,6 +39,7 @@ pkgs.kubernetes-helm
 pkgs.leiningen
 pkgs.maven
 pkgs.minikube
+pkgs.mosh
 pkgs.ngrok
 pkgs.nodejs
 pkgs.packer
