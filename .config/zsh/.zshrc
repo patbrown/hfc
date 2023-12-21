@@ -38,3 +38,6 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 source ~/.zshrc
 clear
+
+# bun completions
+[ -s "/home/pat/.bun/_bun" ] && source "/home/pat/.bun/_bun"
