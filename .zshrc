@@ -47,3 +47,10 @@ if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
 fi
 # End Nix
 
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# fly
+export FLYCTL_INSTALL="/Users/pat/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
