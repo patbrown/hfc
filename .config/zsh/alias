@@ -1,6 +1,6 @@
 alias sz='source ~/.zshrc'
 alias sync-shell='cd ~/hfc && git pull origin main && popd'
-alias di='export ISS=$(gh issue list | fzf | cut -d$'"'"'\t'"'"' -f1) && gh issue develop $ISS -b main --checkout'
+alias di='export ISS=$(gh issue list | fzf | cut -d$'"'"'\t'"'"' -f1) && gh issue develop $ISS -b canary --checkout'
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
