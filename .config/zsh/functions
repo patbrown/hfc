@@ -1,3 +1,4 @@
+function fj () {bb cmd "$@"}
 function bbe () {
 bb -e "$1"
 }

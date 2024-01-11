@@ -30,7 +30,7 @@ pkgs.git-secret
 pkgs.gnupg
 pkgs.graphviz
 pkgs.htop
-pkgs.jdk11
+pkgs.jdk17
 pkgs.k9s
 pkgs.kubectl
 pkgs.kubernetes-helm
